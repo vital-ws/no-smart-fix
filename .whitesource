@@ -1,7 +1,21 @@
 {
-  "settingsInheritedFrom": "vital-ws/whitesource-config@main",
-    "issueSettings": {
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "baseBranches": [],
+    "enableLicenseViolations":true,
+    "enableIaC": true
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff"
+  },
+  "issueSettings": {
     "minSeverityLevel": "LOW",
     "issueType":"VULNERABILITY"
-  },
+  }, 
+    "remediateSettings": {
+    "enableRenovate": true,
+    "extends": ["github>whitesource/merge-confidence:beta"]
+  }
 }
