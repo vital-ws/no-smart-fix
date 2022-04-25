@@ -1,3 +1,7 @@
 {
-  "settingsInheritedFrom": "vital-ws/whitesource-config@main"
+  "settingsInheritedFrom": "vital-ws/whitesource-config@main",
+    "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType":"VULNERABILITY"
+  },
 }
