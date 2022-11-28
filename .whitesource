@@ -1,6 +1,6 @@
 {
   "settingsInheritedFrom": "vital-ws/whitesource-config@main",
   "issueSettings": {
-    "issuteType":"VULNERABILITY"
+    "issueType":"VULNERABILITY"
   }
 }
